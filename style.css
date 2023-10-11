@@ -1,0 +1,72 @@
+
+
+canvas{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+
+main{
+  width:  100vw;
+  color:rgb(204, 204, 255);
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+}
+
+h1,h2,h3,blockquote{
+  font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+}
+canvas{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+header{
+    background: rgba(112, 41, 99, .7);
+    grid-column: 2 / span 4;
+    font-size: 4rem;
+    padding-left: 3.6rem;
+}
+section{
+  background: rgba(112, 41, 99, .7);
+  grid-column: 2/ span 6;
+  padding: 1rem;
+  margin-bottom: 200px;
+}
+p{
+  grid-column: 2 / span 5;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+blockquote{
+  grid-column: 2 / span 5;
+  margin: 0;
+  padding: 0;
+  background-color:#9C91CD;
+  color: #3d1c51;
+  margin-bottom: 200px;
+  padding-left: 2.6rem;
+}
+li{
+  font-size: 1.5rem;
+}
+.left{
+  grid-column: 6 / span 12;
+}
+.stuff{
+  grid-column: 2 / span 3;
+  line-height: 1px;
+  margin-bottom: 100px;
+  padding-left: 2.3rem;
+}
